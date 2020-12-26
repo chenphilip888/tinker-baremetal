@@ -27,6 +27,10 @@ Plugin serial USB cable to PC.
 Type "sudo screen /dev/ttyUSB0 115200" on PC.
 Power on the Tinkerboard.
 It should display the test menu with 8 test items on PC.
+After tests done, hit q to exit tests.
+Power off the Tinkerboard.
+Unplug serial USB cable from PC.
+Type "exit" on PC.
 
 -------------------------------------------------------------------------
 To format sd card using PC:
