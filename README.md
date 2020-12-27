@@ -13,7 +13,7 @@ The following 8 tests are included: ( see below for tests summary )
 
 -------------------------------------------------------------------
 To compile and flash to sd card:
-cd tinker-simple-baremetal
+cd tinker-baremetal
 make clean
 make test
 plugin a formated sd card to PC ( see below to format sd card )
