@@ -9,9 +9,9 @@
 
 void pinMode( void )
 {
-    *GPIO5B = (*GPIO5B | 0x30000) & ~0x3;   // 5B0, GPIO = alt 0
+    *GPIO5B = (0x3 << 16);           // 5B0, GPIO = alt 0
     *GPIO5_SWPORTA_DDR &= ~(0x100); 
-    *GPIO5B = (*GPIO5B | 0xc0000) & ~0xc;   // 5B1, GPIO = alt 0
+    *GPIO5B = (0xc << 16);           // 5B1, GPIO = alt 0
     *GPIO5_SWPORTA_DDR |= 0x200;
 }
 
